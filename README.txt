@@ -6,4 +6,6 @@ hexdump -C output/blink.out
 minipro/minipro -p AT28C256 -r output/read.out
 
 # Write content in file to chip
-minipro/minipro -p AT28C256 -s -u -w /Users/aroelofs/6502/output/blink.out
+minipro/minipro -p AT28C256 -s -u -w /Users/aroelofs/PycharmProjects/6502/output/blink.out
+
+# Program eeprom with half moon towards cable entry/exit
